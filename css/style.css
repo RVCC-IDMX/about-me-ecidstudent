@@ -1,0 +1,15 @@
+body {
+    text-align:center;
+    font-family:"Comic Neue";
+    font-size: 150%;
+    background-color: #EBA0E6;
+    color: #649E97;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+}
+
+header {
+    text-align:center;
+}
