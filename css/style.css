@@ -8,8 +8,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+    text-align:center;
 }
 
 header {
     text-align:center;
+}
+
+#hobbies {
+    border: 10px solid #649E97;
+    text-align: left;
 }
