@@ -15,8 +15,12 @@ header {
     text-align:center;
 }
 
+#biography {
+    border: 5px solid #649E97;
+}
+
 #hobbies {
-    border: 10px solid #649E97;
+    border: 5px solid #649E97;
     text-align: left;
 }
 
@@ -31,4 +35,8 @@ header {
 
 #gallery figure {
     text-align:center;
+}
+
+#lit {
+    border: 5px solid #649E97;
 }
