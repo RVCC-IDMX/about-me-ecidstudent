@@ -19,3 +19,7 @@ header {
     border: 10px solid #649E97;
     text-align: left;
 }
+
+#gallery {
+    text-align:center; 
+}
