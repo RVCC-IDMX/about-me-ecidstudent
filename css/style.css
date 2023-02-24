@@ -21,5 +21,14 @@ header {
 }
 
 #gallery {
+    border: 5px solid #649E97;
     text-align:center; 
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align:center;
 }
