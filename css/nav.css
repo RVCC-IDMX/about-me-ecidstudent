@@ -19,6 +19,20 @@ main {
     margin-bottom: 1rem;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 4vw;
+    width: 4vw;
+}
+
+.logo h1 {
+    font-size: 1.2em;
+}
+
 .navbar-links li {
     list-style: none;
     display: block;
@@ -27,9 +41,35 @@ main {
 
 .navbar-links a {
     color: #649E97;
+    background-color: #EBA0E6;
     font-size: 1.5rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+}
+
+.navbar-links a:hover,
+.navbar-links a:focus {
+filter: invert(1);
+border-radius: 10px;
+outline: none;
+}
+
+@media screen and (min-width: 60rem) {
+    .navbar-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        display: flex;
+    }
+
 }
